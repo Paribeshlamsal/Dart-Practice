@@ -23,6 +23,7 @@ void main() {
 
   Rectangle rectangle = Rectangle(20);
   rectangle.printValue(); 
+   
   rectangle.printRectangleMessage(); 
   print("Direct value from Rectangle: ${rectangle.value}");
 }
